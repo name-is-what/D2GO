@@ -1,7 +1,7 @@
 # [MM 2025] Test-time Graph OOD Detection via Dynamic Dictionary Expansion and OOD Score Calibration
-This repository is the official implementation of "[Test-time Graph OOD Detection via Dynamic Dictionary Expansion and OOD Score Calibration](https://arxiv.org/abs/2503.03241)" accepted by the 33rd ACM International Conference on Multimedia (MM-2025).
+This repository is the official implementation of "[Test-time Graph OOD Detection via Dynamic Dictionary Expansion and OOD Score Calibration](https://dl.acm.org/doi/abs/10.1145/3746027.3755741)" accepted by the 33rd ACM International Conference on Multimedia (MM-2025).
 
-[![Black Logo](frame.png)](https://arxiv.org/abs/2503.03241)
+[![Black Logo](frame.png)](https://dl.acm.org/doi/abs/10.1145/3746027.3755741)
 
 ------
 
@@ -29,7 +29,7 @@ Just run the script corresponding to the experiment and dataset you want. For in
 
 * Run out-of-distribution detection on all dataset pairs:
 ```bash
-bash script/
+bash run.sh
 ```
 
 
@@ -37,5 +37,11 @@ bash script/
 If you find this repository helpful, please consider citing the following paper. We welcome any discussions with [hou_yue@buaa.edu.cn](mailto:hou_yue@buaa.edu.cn).
 
 ```bibtex
-
+inproceedings{hou2025test,
+  title={Test-time Graph OOD Detection via Dynamic Dictionary Expansion and OOD Score Calibration},
+  author={Hou, Yue and Su, Yingke and Wu, Junran and Xu, Ke},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={8845--8853},
+  year={2025}
+}
 ```
