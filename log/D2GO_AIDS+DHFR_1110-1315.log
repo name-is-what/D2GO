@@ -1,0 +1,16 @@
+2025-11-11 09:15:34,115 - INFO - Namespace(DS='BZR', DS_ood='COX2', DS_pair='AIDS+DHFR', batch_size=128, batch_size_test=128, dg_dim=16, eval_freq=10, exp_type='oodd', hidden_dim=32, is_adaptive=1, lam_range='[0.7,1.0]', lr=0.0001, num_epoch=100, num_layer=5, num_trial=1, rw_dim=16, top_k=5, weight_in=1.0, weight_out=1.0)
+2025-11-11 09:15:34,115 - INFO - Trial 0
+2025-11-11 09:15:40,279 - INFO - meta: {'num_feat': 1, 'num_train': 1000, 'num_test': 1000, 'num_ood': 756}
+2025-11-11 09:15:40,667 - INFO - ================
+2025-11-11 09:15:40,667 - INFO - Exp_type: oodd
+2025-11-11 09:15:40,667 - INFO - DS: AIDS+DHFR
+2025-11-11 09:15:40,668 - INFO - num_train: 1000
+2025-11-11 09:15:40,668 - INFO - num_features: 1
+2025-11-11 09:15:40,668 - INFO - num_structural_encodings: 32
+2025-11-11 09:15:40,669 - INFO - hidden_dim: 32
+2025-11-11 09:15:40,669 - INFO - num_gc_layers: 5
+2025-11-11 09:15:40,669 - INFO - dataset:AIDS+DHFR
+2025-11-11 09:15:40,669 - INFO - ================
+2025-11-11 09:16:56,708 - INFO - [TEST TIME] Trial: 0 | AUC: 0.9959 | Runtime: 76.04s | Max GPU Memory: 218.1450MiB
+2025-11-11 09:16:56,708 - INFO - [TEST TIME] AUC_mean:0.9959
+2025-11-11 09:16:56,709 - INFO - [TEST TIME] AUC_std:0.0000
