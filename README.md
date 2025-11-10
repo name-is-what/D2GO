@@ -27,9 +27,11 @@ pip install -r requirements.txt
 ## 2. Quick Start
 Just run the script corresponding to the experiment and dataset you want. For instance:
 
-* Run out-of-distribution detection on all dataset pairs:
-```bash
-bash run.sh
+```shell
+python d2go.py -exp_type oodd -DS_pair AIDS+DHFR -batch_size_test 128 -num_epoch 100 -hidden_dim 32
+python d2go.py -exp_type oodd -DS_pair PTC_MR+MUTAG -batch_size_test 128 -num_epoch 100 -hidden_dim 32
+python d2go.py -exp_type oodd -DS_pair ENZYMES+PROTEINS -batch_size_test 128 -num_epoch 100 -hidden_dim 32
+python d2go.py -exp_type oodd -DS_pair IMDB-MULTI+IMDB-BINARY -batch_size_test 128 -num_epoch 100 -hidden_dim 32
 ```
 
 
